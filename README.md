@@ -47,3 +47,33 @@ nltk.download('movie_reviews')
 در بایگرام مانند unigram عمل می‌کنیم با این تفاوت که دو کلمه پشت سر هم مورد بررسی قرار می گیرند.
 
 </h4>
+
+
+
+<h4 dir=rtl>
+3-:آموزش رده بند
+</h4>
+
+
+<h4 dir=rtl>
+در این مرحله با توجه به  featureهاي تولید شده در مرحله قبل و با استفاده از رده بندي
+ BayesNaïveعملیات  trainانجام می شود .
+</h4>
+
+<h4 dir=rtl>
+4-:ارزیابی مدل
+</h4>
+
+<h4 dir=rtl>
+مقادیر precisionو recallو  accuracyرا به دست آورده
+</h4>
+
+accuracy top-N 0.75
+precision top-N 1.0
+recall top-N 0.75
+accuracy unigram 0.66
+precision unigram 0.5993788819875776
+recall unigram 0.965
+accuracy bigram 0.7525
+precision bigram 0.6771929824561403
+recall bigram 0.965
