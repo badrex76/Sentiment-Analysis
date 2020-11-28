@@ -18,9 +18,9 @@ nltk.download('movie_reviews')
 مراحل انجام:
 </h4>
 
-<h4 dir=rtl>
+<h3 dir=rtl>
 1-:پیش پردازش
-</h4>
+</h3>
 <h4 dir=rtl>
 برای پردازش روی اطلاعات در ابتدا نیاز به عملیات پیش پردازش روی دیتا ها داریم 
 از مهم ترین عملیات clean می توان به حذف stopword ها، tokenization  ، حذف punctuation و ... اشاره کرد 
@@ -28,9 +28,9 @@ nltk.download('movie_reviews')
 
 
 
-<h4 dir=rtl>
+<h3 dir=rtl>
 2-:استخراج ویژگی
-</h4>
+</h3>
 
 <h4 dir=rtl>
 مهم ترین بخش این کد مربوط به همین قسمت می باشد که من سه نوع feature تعریف کردم :
@@ -50,9 +50,9 @@ nltk.download('movie_reviews')
 
 
 
-<h4 dir=rtl>
+<h3 dir=rtl>
 3-:آموزش رده بند
-</h4>
+</h3>
 
 
 <h4 dir=rtl>
@@ -60,14 +60,15 @@ nltk.download('movie_reviews')
  BayesNaïveعملیات  trainانجام می شود .
 </h4>
 
-<h4 dir=rtl>
+<h3 dir=rtl>
 4-:ارزیابی مدل
-</h4>
+</h3>
 
 <h4 dir=rtl>
 مقادیر precisionو recallو  accuracyرا به دست آورده
 </h4>
 
+<h4 dir=rtl>
 accuracy top-N 0.75
 precision top-N 1.0
 recall top-N 0.75
@@ -77,3 +78,5 @@ recall unigram 0.965
 accuracy bigram 0.7525
 precision bigram 0.6771929824561403
 recall bigram 0.965
+</h4>
+
